@@ -6,7 +6,7 @@ data class Item(val name: String, val url: String)
 
 class MediaRepository @Inject constructor() {
     private val _urls = listOf( // https://gist.github.com/Fazzani/8f89546e188f8086a46073dc5d4e2928
-        "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
+        "https://live.143b.ch/cam/flux/ts:abr.m3u8",
         "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
     )
 
